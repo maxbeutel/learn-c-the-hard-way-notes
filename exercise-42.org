@@ -10,9 +10,9 @@
 
 ** Tests
 
-- [ ] Refactor test_sendReceive
-  + [ ] Don't use loops when adding test data
-  + [ ] Check queue size after every call to send/receive
+- [X] Refactor test_sendReceive
+  + [X] Don't use loops when adding test data
+  + [X] Check queue size after every call to send/receive
 
 * References
 
