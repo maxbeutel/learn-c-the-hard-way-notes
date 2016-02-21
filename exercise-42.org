@@ -1,0 +1,22 @@
+* Queue implementation
+
+- Implement bounded queue as ring with overwrite semantics
+- Make queue accept NULL as element?
+
+- Implement QUEUE_FOREACH macro
+
+- Make send return status if overwritten or not
+- Make receive return number of blank spots? (maybe)
+
+** Tests
+
+- [ ] Refactor test_sendReceive
+  + [ ] Don't use loops when adding test data
+  + [ ] Check queue size after every call to send/receive
+
+* References
+
+http://c.learncodethehardway.org/book/ex42.html
+
+https://www.cs.bu.edu/teaching/c/queue/array/types.html
+https://en.wikipedia.org/wiki/Queue_(abstract_data_type)
