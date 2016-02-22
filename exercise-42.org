@@ -1,12 +1,20 @@
 * Queue implementation
 
-- Implement bounded queue as ring with overwrite semantics
+Implement bounded queue as ring with overwrite semantics
+
 - Make queue accept NULL as element?
 
 - Implement QUEUE_FOREACH macro
 
 - Make send return status if overwritten or not
+
 - Make receive return number of blank spots? (maybe)
+
+- Reset first element index when no more elements are left in the queue
+
+- [-] Overwrite from beginning when queue is full
+  + [X] Implement simple case
+  + [ ] Add another testcase that continues using the queue after elements have been overwritten
 
 ** Tests
 
