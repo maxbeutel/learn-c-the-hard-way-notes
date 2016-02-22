@@ -10,7 +10,7 @@ Implement bounded queue as ring with overwrite semantics
 
 - Make receive return number of blank spots? (maybe)
 
-- Reset first element index when no more elements are left in the queue
+- [X] Reset first element index when no more elements are left in the queue
 
 - [-] Overwrite from beginning when queue is full
   + [X] Implement simple case
