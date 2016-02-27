@@ -1,0 +1,22 @@
+* Ringbuffer Implementation
+
+In general: don't use bstrlib as in book, just use char*
+
+- [ ] Implement Ringbuffer_gets() function
+
+- [ ] Create test
+
+- [ ] Implement missing macros in header file
+
+- [ ] When allocating rinbuffer->buffer, should the "1" be sizeof(char) ?
+
+** Research
+
+What exactly is a ringbuffer useful for? Maybe more clear when writing tests
+
+* Resources
+
+https://www.safaribooksonline.com/library/view/learn-c-the/9780133124385/ch44.html#
+
+http://stackoverflow.com/questions/827691/how-do-you-implement-a-circular-buffer-in-c
+https://en.wikipedia.org/wiki/Circular_buffer
