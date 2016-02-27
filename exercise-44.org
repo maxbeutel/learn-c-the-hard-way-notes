@@ -6,7 +6,7 @@ In general: don't use bstrlib as in book, just use char*
 
 - [ ] Create test
 
-- [ ] Implement missing macros in header file
+- [X] Implement missing macros in header file
 
 - [ ] When allocating rinbuffer->buffer, should the "1" be sizeof(char) ?
 
